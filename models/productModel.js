@@ -9,9 +9,9 @@ const ProductSchema = new mongoose.Schema(
       min: [0, "Wrong min price"],
       max: [10000, "Wrong max price"],
     },
-    categories:{
-      type:String,
-      enum:['Women','Men','Accessories'],
+    categories: {
+      type: String,
+      enum: ["Women", "Men", "Accessories"],
     },
     discountPercentage: {
       type: Number,
@@ -36,6 +36,7 @@ const ProductSchema = new mongoose.Schema(
     sizes: { type: [mongoose.Schema.Types.Mixed] },
     highlights: { type: [String] },
     discountPrice: { type: Number },
+    packagingCharge: { type: Number },
     deleted: { type: Boolean, default: false },
   },
   { timestamps: true }
