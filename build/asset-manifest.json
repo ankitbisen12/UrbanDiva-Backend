@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8631c7e6.css",
+    "main.js": "/static/js/main.e1ffd926.js",
+    "static/media/LoginImage.png": "/static/media/LoginImage.ab645364178be438f4be.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/slider3.webp": "/static/media/slider3.8d5437a677c4cb5fca16.webp",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/slider2.webp": "/static/media/slider2.608ce4c821811f400e52.webp",
+    "static/media/slider5.webp": "/static/media/slider5.608ce4c821811f400e52.webp",
+    "static/media/Levis.png": "/static/media/Levis.4c75f6814421f576fee2.png",
+    "static/media/slider6.webp": "/static/media/slider6.ea6a479a2daf90994cf3.webp",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/c6.webp": "/static/media/c6.49accbdf1245ae13d26d.webp",
+    "static/media/c5.jpg": "/static/media/c5.83a3b4979692e2647aed.jpg",
+    "static/media/Jack&Jones.png": "/static/media/Jack&Jones.8caf201280d26bd04ac2.png",
+    "static/media/slider4.webp": "/static/media/slider4.65f987a61a0d4fec55eb.webp",
+    "static/media/ketch.png": "/static/media/ketch.12dc020aaddade9d8c84.png",
+    "static/media/C8.webp": "/static/media/C8.4f3822eed4d74e55c9df.webp",
+    "static/media/c4.webp": "/static/media/c4.58be1fcc6954475b04b0.webp",
+    "static/media/slider1.webp": "/static/media/slider1.9c10f291dbdeda709540.webp",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/c7.webp": "/static/media/c7.9507688cd81c24782267.webp",
+    "static/media/c1.webp": "/static/media/c1.60a3bf84cfdec26f1426.webp",
+    "static/media/c3.webp": "/static/media/c3.0fd0ffe992a963657193.webp",
+    "static/media/c2.webp": "/static/media/c2.076e192220fb891fcb1c.webp",
+    "static/media/highlander.png": "/static/media/highlander.d102a806b8611f316ae8.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.8631c7e6.css.map": "/static/css/main.8631c7e6.css.map",
+    "main.e1ffd926.js.map": "/static/js/main.e1ffd926.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8631c7e6.css",
+    "static/js/main.e1ffd926.js"
+  ]
+}
