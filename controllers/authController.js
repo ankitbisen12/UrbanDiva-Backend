@@ -61,3 +61,12 @@ exports.checkAuth = catchAsync(async (req, res) => {
     res.sendStatus(401);
   }
 });
+
+exports.logout = catchAsync(async (req,res,next) =>{
+  res
+  .cookie('jwt', null, {
+    expires: new Date(Date.now()),
+    httpOnly: true,
+  })
+  .sendStatus(200);
+});
