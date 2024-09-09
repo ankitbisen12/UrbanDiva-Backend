@@ -57,7 +57,6 @@ app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/auth", authRoutes); //no need to check authentication
 app.use("/api/v1/cart",isAuth(), cartRoutes);
 app.use('/api/v1/orders',isAuth(), orderRouter);
-
 app.get("*", (req, res) => {
   res.sendFile(path.resolve("build", "index.html"));
 });

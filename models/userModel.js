@@ -10,6 +10,8 @@ const userSchema = new mongoose.Schema(
     },
     addresses: { type: [mongoose.Schema.Types.Mixed] }, //TODO: we can create separate schema for this later.
     name: { type: String },
+    gender:{type: String},
+    mobileNo:{ type: Number},
     salt: Buffer,
   },
   { timestamps: true }

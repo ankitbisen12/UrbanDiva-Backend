@@ -62,7 +62,7 @@ exports.checkAuth = catchAsync(async (req, res) => {
   }
 });
 
-exports.logout = catchAsync(async (req,res,next) =>{
+exports.logOut = catchAsync(async (req,res,next) =>{
   res
   .cookie('jwt', null, {
     expires: new Date(Date.now()),

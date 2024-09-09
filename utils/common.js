@@ -3,7 +3,7 @@ const passport = require("passport");
 exports.userData = (user) => {
   return {
     id: user.id,
-    name: user.id,
+    name: user.name,
     addresses: user.addresses,
     email: user.email,
     role: user.role,
@@ -25,7 +25,7 @@ exports.cookieExtractor = function (req) {
   }
 
   //TODO: this is temporary token for testing without cookie
-  // token = 
+  // token =
   //   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Zjc0NjIzNzYxNWVkZjg2ZTRlMWFkNCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzEwODQ3Njk3fQ.PmfxUc_c618Cksb9riHhZHNs4qj76odVFb80yn5e7bAeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Zjc0NjIzNzYxNWVkZjg2ZTRlMWFkNCIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzEwODQ3Njk3fQ.PmfxUc_c618Cksb9riHhZHNs4qj76odVFb80yn5e7bA';
   return token;
 };

@@ -4,15 +4,10 @@ const { userData } = require("../utils/common");
 
 exports.fetchUserById = catchAsync(async (req, res) => {
   //extracting id from backend only
+  console.log("req.user",req.user);
   const { id } = req.user;
   const user = await User.findById(id);
-  res.status(200).json({
-    id: user.id,
-    name: user.name,
-    addresses: user.addresses,
-    email: user.email,
-    role: user.role,
-  });
+  res.status(200).json(userData(user));
 });
 
 exports.updateUser = catchAsync(async (req, res, next) => {
